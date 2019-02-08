@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  background: #373736;
+  color: #7f858f;
+}
+.footer-content{
+  margin: 3% 0 3% 40%;
+  padding: 0;
+}
+.footer-content > img{
+  width: 50%;
+  height: auto;
+}

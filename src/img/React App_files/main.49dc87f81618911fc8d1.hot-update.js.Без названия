@@ -1,0 +1,23 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/Page/HomePage.scss":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/sass-loader/lib/loader.js??ref--6-oneOf-5-3!./src/Page/HomePage.scss ***!
+  \**********************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".top-block {\n  display: flex; }\n\n.menu-navigation {\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around; }\n\n.logo-image {\n  width: 30%;\n  height: auto; }\n\n.menu-navigation-links {\n  padding: 0;\n  margin-top: 5%; }\n\n.menu-navigation-links-logo {\n  margin: 0 20% 0 20%; }\n\n.link-menu-text {\n  margin: 10% 0 0 0; }\n", ""]);
+
+// exports
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.49dc87f81618911fc8d1.hot-update.js.map
