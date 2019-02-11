@@ -1,0 +1,19 @@
+@import "../utils";
+
+.proposals-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .proposal-item {
+    margin-bottom: -5px;
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+
+  @include portrait {
+    .proposal-item {
+      flex-basis: 100%;
+    }
+  }
+}

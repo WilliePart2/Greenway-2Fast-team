@@ -1,8 +1,11 @@
+@import "../utils";
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  padding: toRems(40px);
 
   background: #373736;
   color: #7f858f;
@@ -10,6 +13,10 @@
 .footer-content {
   position: relative;
   flex-basis: 25%;
+
+  @include portrait {
+    flex-basis: 50%;
+  }
 }
 .footer-content > img {
   position: relative;
