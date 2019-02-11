@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import logo from '../../img/logo.png';
-import './footer.scss';
+import logo from '../img/logo.png';
+import '../styles/components/footer.scss';
 
 
 class footer extends Component {

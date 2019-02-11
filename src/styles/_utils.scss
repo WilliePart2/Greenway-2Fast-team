@@ -1,0 +1,51 @@
+@mixin mobile {
+  @media screen and (max-width: 560px) {
+    @content
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content
+  }
+}
+
+@mixin large-tablet {
+  @media screen and (max-width: 981px) {
+    @content
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1024px) {
+    @content
+  }
+}
+
+@mixin landscape {
+  @media screen and (orientation: landscape) {
+    @content
+  }
+}
+
+@mixin portrait {
+  @media screen and (orientation: portrait) {
+    @content
+  }
+}
+
+@mixin box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$appRem: 24px;
+@function toRems ($px) {
+  @return #{$px / $appRem}rem;
+}
+
+@mixin font {
+  font-family: 'Montserrat', sans-serif;
+}

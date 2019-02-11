@@ -1,0 +1,56 @@
+@import '../utils';
+@import '../variables';
+
+.landing-header {
+  @include font;
+
+  .landing-logo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    .landing-logo--container {
+      width: 100%;
+    }
+  }
+
+  .landing-nav-menu {
+    display: flex;
+    justify-content: space-around;
+
+    @include tablet {
+      border-top: 2px solid rgba(215, 215, 215, 0.5);
+    }
+
+    .mav-menu-item,
+    .mav-menu-item--active {
+      margin: 0 toRems(20px);
+      width: calc(100% - #{toRems(40px)});
+      text-align: center;
+      line-height: toRems(50px);
+      display: block;
+      text-decoration: none;
+      color: $textColor;
+      font-size: toRems(20px);
+      text-transform: uppercase;
+      white-space: nowrap;
+
+      @include mobile {
+        font-size: toRems(14px);
+      }
+    }
+  }
+
+  .landing-sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $textColor;
+    font-size: toRems(20px);
+    line-height: toRems(50px);
+    text-transform: uppercase;
+
+    @include mobile {
+      font-size: toRems(14px);
+    }
+  }
+}

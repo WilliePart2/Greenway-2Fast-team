@@ -3,7 +3,7 @@ import img1 from '../img/Artboard2.jpg';
 import img2 from '../img/Artboard5.jpg';
 import img3 from '../img/Artboard6.jpg';
 import img4 from '../img/Artboard10.jpg';
-import './HomePageContainer.scss';
+import '../styles/components/HomePageContainer.scss';
 
 class HomePageContainer extends Component {
     render() {

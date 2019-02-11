@@ -1,0 +1,72 @@
+@import '../utils';
+
+.landing-main-slider {
+  min-height: toRems(500px);
+  display: flex;
+  flex-flow: column nowrap;
+  padding: toRems(250px) 0;
+
+  @include portrait {
+    padding: toRems(50px) 0;
+
+    @include tablet {
+      padding: toRems(380px) 0;
+    }
+  }
+
+  @include tablet {
+    padding-top: toRems(100px);
+  }
+
+  @include  mobile {
+    padding-top: toRems(10px);
+  }
+
+
+  .landing-slider-header {
+    padding: toRems(50px) 0;
+
+    @include tablet {
+      padding-top: toRems(110px);
+    }
+
+    @include mobile {
+      padding-top: toRems(10px);
+    }
+  }
+
+  .landing-slider-slide-text {
+    padding: toRems(50px) 0;
+    min-height: toRems(180px);
+
+    @include mobile {
+      padding-top: toRems(10px);
+    }
+  }
+
+  .landing-slider-text-block {
+    padding: toRems(50px) 0 toRems(120px) 0;
+
+    @include mobile {
+      padding: toRems(10px) 0 toRems(50px) 0;
+    }
+  }
+
+  .landing-slider-button {
+    display: flex;
+    justify-content: center;
+    padding: toRems(20px) 0 toRems(70px) 0;
+
+    .landing-slider-button--content {
+      flex-basis: toRems(450px);
+    }
+
+    @include mobile {
+      .landing-slider-button--content {
+        margin: 0 toRems(20px);
+        flex-basis: calc(100% - #{toRems(40px)});
+      }
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+@import '../utils';
+@import "../variables";
+
+.head-text {
+  @include font;
+  text-align: center;
+  font-weight: 500;
+  color: $textColor;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: toRems(5px);
+  font-size: toRems(100px);
+
+  @include desktop {
+    font-size: toRems(120px);
+  }
+
+  @include large-tablet {
+    font-size: toRems(110px);
+  }
+
+  @include tablet {
+    font-size: toRems(90px);
+  }
+
+  @include mobile {
+    font-size: toRems(50px);
+  }
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
+}

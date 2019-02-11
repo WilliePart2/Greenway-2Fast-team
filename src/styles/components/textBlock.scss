@@ -1,0 +1,35 @@
+ @import "../utils";
+ @import "../variables";
+
+ .text-block {
+   @include font;
+   color: $textColor;
+   font-size: toRems(30px);
+   display: flex;
+   justify-content: center;
+
+   .text-block-content {
+
+   }
+
+   &.center {
+     text-align: center;
+   }
+
+   &.no-wrap {
+     white-space: nowrap;
+   }
+
+   &.dark {
+     color: $darkTextColor;
+   }
+
+   &.attractive {
+     color: $attractiveTextColor;
+   }
+
+   &.bold {
+     font-weight: bold;
+   }
+
+ }

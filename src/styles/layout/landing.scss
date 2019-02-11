@@ -1,0 +1,71 @@
+@import '../utils';
+
+.landing-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  .landing-header {
+    height: toRems(250px);
+    width: calc(100% - #{toRems(10px)});
+    margin: 0 toRems(5px);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @include tablet {
+      align-items: stretch;
+      margin: 0 toRems(20px);
+      width: calc(100% - #{toRems(40px)});
+      justify-content: space-between;
+    }
+
+    .landing-logo,
+    .landing-nav-menu,
+    .landing-sign-in {
+      //height: toRems(150px);
+      flex-basis: 30%;
+      flex-grow: 0;
+    }
+
+    .landing-logo {
+      //flex-basis: 20%;
+      order: 1;
+    }
+
+    .landing-nav-menu {
+      flex-basis: 40%;
+      order: 2;
+
+      @include tablet {
+        flex-basis: 100%;
+        order: 3;
+        height: auto;
+        align-self: flex-start;
+      }
+    }
+
+    .landing-sign-in {
+      order: 3;
+
+      @include tablet {
+        order: 2;
+      }
+    }
+  }
+
+  .presentation-block {
+
+  }
+
+  .footer {
+    //position: absolute;
+    //bottom: 0;
+  }
+}

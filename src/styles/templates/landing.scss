@@ -1,0 +1,9 @@
+@import "../utils";
+
+.landing-content {
+  background:{
+    image: url('./img/bg.png');
+    repeat: no-repeat;
+    size: cover;
+  }
+}
