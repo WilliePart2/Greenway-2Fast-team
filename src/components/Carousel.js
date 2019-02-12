@@ -7,7 +7,9 @@ export class Carousel extends React.Component {
                 backgroundImage: `url(${this.props.image})`,
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: ' 50% 60%'
+                backgroundPosition: ' 50% 60%',
+                width: '60%',
+                height: '400px'
             }}>
             </div>
         );

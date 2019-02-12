@@ -1,0 +1,48 @@
+@import "../utils";
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+
+  .slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .carousel-item {
+      flex-basis: 50%;
+      flex-grow: 1;
+      text-align: center;
+    }
+  }
+
+  @include portrait {
+    .carousel-item {
+      flex-basis: 100%;
+    }
+  }
+
+}
+
+.welcome-block {
+  background:{
+    color: black;
+    repeat: no-repeat;
+    size: 100%;
+  }
+  .welcome-block-text {
+
+    margin: 10% 0 5% 0;
+  }
+  .welcome-block-button {
+    display: flex;
+    justify-content: center;
+    padding: .8rem 0 2.9rem 0;
+  }
+  .welcome-block-button--content {
+    flex-basis: 18.75rem;
+  }
+}

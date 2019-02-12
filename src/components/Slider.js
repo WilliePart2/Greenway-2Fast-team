@@ -7,6 +7,9 @@ import mercedes4 from '../img/Carousel/mercedes4.jpg';
 import mercedes5 from '../img/Carousel/mercedes5.jpg';
 
 import {Carousel} from './Carousel';
+import {RightArrow} from './RightArrow';
+import {LeftArrow} from './LeftArrow';
+import {BlockWelkome} from "./BlockWelkome";
 
 export class Slider extends React.Component {
     constructor(props) {
@@ -25,11 +28,21 @@ export class Slider extends React.Component {
         }
     }
 
-    clickRightArrow() {
+    goToPrevSlide() {
+        if (this.state.count <= 0) {
+            return this.state({
+                count: this.state.images.length - 1,
+                translatePx: 0
+            })
+        }
 
+        this.setState(prevState => ({
+            count: prevState.count - 1,
+            translatePx: prevState.translatePx - -(this.slideWidth())
+        }))
     }
 
-    clickLeftArrow() {
+    goToNextSlide() {
         if (this.state.count === this.state.images.length - 1) {
             return this.setState({
                     count: 0,
@@ -40,12 +53,12 @@ export class Slider extends React.Component {
 
         this.setState(prevState => ({
             count: prevState.count + 1,
-            translatePx: prevState.translatePx + -(this.slideWidth)
+            translatePx: prevState.translatePx + -(this.slideWidth())
 
         }));
     }
 
-    slideWidth = () => {
+    slideWidth() {
         return document.querySelector('.carousel-item').clientWidth
     }
 
@@ -54,9 +67,7 @@ export class Slider extends React.Component {
 
         return (
             <div className="slider">
-                <div className="left-arrow" onClick={this.clickLeftArrow}>
-                    <img className="arrow-left--img" aria-hidden='true'/>
-                </div>
+                <BlockWelkome/>
 
                 <div className="slider-wrapper"
                      style={
@@ -72,9 +83,15 @@ export class Slider extends React.Component {
                         )
                     }
                 </div>
-                <div className="right-arrow" onClick={this.clickRightArrow()}>
-                    <img className="arrow-right--img" aria-hidden='true'/>
-                </div>
+
+
+                <LeftArrow
+                    goToPrevSlide={this.goToPrevSlide}
+                />
+                <RightArrow
+                    goToNextSlide={this.goToNextSlide}
+                />
+
             </div>
         );
     }
