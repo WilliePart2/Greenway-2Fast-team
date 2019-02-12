@@ -1,8 +1,9 @@
 import React from 'react';
+
 import {TextBlock} from "./textBlock";
 import {Button} from "./button";
 
-export class BlockWelkome extends React.Component {
+export class JoinBlock extends React.Component {
     render() {
         return (
             <div className="welcome-block">

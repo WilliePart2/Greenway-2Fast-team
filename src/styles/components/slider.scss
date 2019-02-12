@@ -1,38 +1,79 @@
 @import "../utils";
+@import "../variables";
 
 .slider {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: white;
 
-  .slider-wrapper {
+  .carousel-list-container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: row;
+    background-color: white;
 
-    .carousel-item {
-      flex-basis: 50%;
-      flex-grow: 1;
-      text-align: center;
-    }
+    margin: 10% 0 10% 0;
+  }
+  .carousel-list-container--ul {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    transition-property: margin-left;
+
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+  .carousel-list-container--ul > li {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+  }
+  .carousel-list-container--ul > li > img{
+    width: 300%;
+    height: auto;
+
+  }
+
+  .arrow-right--next {
+    z-index: 50;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    background: black;
+    padding: 0;
+    margin-top: 10%;
+    cursor: pointer;
+  }
+  .arrow-left--prev {
+    z-index: 50;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    background: black;
+    padding: 0;
+    margin-top: 10%;
+    cursor: pointer;
   }
 
   @include portrait {
-    .carousel-item {
-      flex-basis: 100%;
-    }
+
   }
 
 }
 
 .welcome-block {
-  background:{
-    color: black;
-    repeat: no-repeat;
-    size: 100%;
-  }
+
+  background: black no-repeat;
+  background-size: 100%;
+
   .welcome-block-text {
 
     margin: 10% 0 5% 0;
