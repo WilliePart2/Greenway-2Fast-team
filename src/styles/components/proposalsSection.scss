@@ -9,6 +9,59 @@
     margin-bottom: -5px;
     flex-basis: 50%;
     flex-grow: 1;
+    text-align: center;
+
+    background-color: white;
+  }
+  .proposal-item > img {
+    margin-top: 5%;
+    width: 50%;
+    height: auto;
+  }
+  .proposals-section--label {
+    width: 30%;
+    margin-left: 35%;
+    padding-bottom: .5%;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    border-bottom: 1px solid black;
+  }
+  .proposals-section-label--top {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 15%;
+    padding: 0 12px 16px 12px;
+
+    line-height: 1.8;
+    border-bottom: 1px solid black;
+  }
+  .proposals-section-label--bottom {
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    line-height: 1.4;
+    padding: 0 12px 0 12px;
+    margin-bottom: 2%;
+  }
+  .proposals-section--button {
+    width: 30%;
+    padding: 12px 22px 12px 22px;
+    margin-bottom: 3%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+    color: #14b81f;
+    border: 2px solid #14b81f;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
   }
 
   @include portrait {
