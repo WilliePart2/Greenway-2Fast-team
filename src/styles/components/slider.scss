@@ -1,68 +1,97 @@
 @import "../utils";
 @import "../variables";
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .slider {
   display: flex;
   flex-direction: column;
   background-color: white;
 
-  .carousel-list-container {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-
-    margin: 10% 0 10% 0;
-  }
-  .carousel-list-container--ul {
-    display: flex;
-    flex-direction: row;
-
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-    transition-property: margin-left;
-
-    transition-duration: 250ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-  }
-  .carousel-list-container--ul > li {
+  .carousel {
     position: relative;
-    flex-grow: 1;
-    width: 100%;
-  }
-  .carousel-list-container--ul > li > img{
-    width: 300%;
-    height: auto;
-
   }
 
-  .arrow-right--next {
-    z-index: 50;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 0;
-    border: none;
-    background: black;
-    padding: 0;
-    margin-top: 10%;
-    cursor: pointer;
-  }
-  .arrow-left--prev {
-    z-index: 50;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    font-size: 0;
-    border: none;
-    background: black;
-    padding: 0;
-    margin-top: 10%;
-    cursor: pointer;
-  }
+  .carousel-slide {
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    max-width: 900px;
+    list-style-type: none;
+    text-align: center;
 
+    &--active {
+      display: block;
+    }
+
+    //content of slides
+    .carousel-slide--content {
+      margin-bottom: 19px;
+    }
+
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      display: block;
+      color: #111;
+      cursor: pointer;
+      opacity: .75;
+      transform: translateY(-50%);
+      transition: opacity .15s cubic-bezier(.4, 0, 1, 1);
+
+      &:focus {
+        outline: 0;
+      }
+      &:hover {
+        opacity: .5;
+      }
+      &--left {
+        left: 32px;
+      }
+      &--right {
+        right: 32px;
+      }
+
+    }
+
+    //carousel indicators
+    .carousel-indicators {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 20px;
+
+      li {
+        &:nth-of-type(n +2) {
+          margin-left: 9px;
+        }
+      }
+    }
+    .carousel-indicator {
+      display: block;
+      width: 24px;
+      height: 3px;
+      background-color: black;
+      cursor: pointer;
+      opacity: .15;
+      transition: opacity .15s cubic-bezier(.4, 0, 1, 1);
+
+      &:hover{
+        opacity: .5;
+      }
+      &--active{
+        &,
+        &:hover{
+          opacity: .75;
+        }
+      }
+    }
+
+  }
   @include portrait {
 
   }
