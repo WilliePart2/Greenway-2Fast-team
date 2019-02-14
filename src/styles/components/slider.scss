@@ -12,9 +12,15 @@ ul {
   flex-direction: column;
   background-color: white;
 
-  .carousel {
-    position: relative;
-  }
+}
+
+@include portrait {
+
+}
+
+.carousel {
+  position: relative;
+  margin-top: 3%;
 
   .carousel-slide {
     margin-right: auto;
@@ -61,24 +67,24 @@ ul {
       }
 
     }
+  }
 
-    //carousel indicators
-    .carousel-indicators {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 20px;
+  //carousel indicators
+  .carousel-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .5% 0 .5% 0;
 
-      li {
-        &:nth-of-type(n +2) {
-          margin-left: 9px;
-        }
-      }
+    li{
+      margin: 0;
+      width: 30px;
     }
+
     .carousel-indicator {
       display: flex;
       width: 24px;
-      height: 3px;
+      height: 5px;
       background-color: black;
       cursor: pointer;
       opacity: .15;
@@ -96,10 +102,6 @@ ul {
     }
 
   }
-  @include portrait {
-
-  }
-
 }
 
 .welcome-block {

@@ -8,7 +8,7 @@ export class LeftArrow extends React.Component {
                 href="#"
                 className="carousel-arrow--left carousel-arrow"
                 onClick={this.props.onClick}>
-                <span className="angle-left">Prev</span>
+                <span className="angle-left"/>
             </a>
         );
     }

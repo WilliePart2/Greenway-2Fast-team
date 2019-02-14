@@ -9,8 +9,7 @@ export class CarouselIndicator extends React.Component {
                         ? "carousel-indicator carousel-indicator--active"
                         : "carousel-indicator"
                 }
-                   onClick={this.props.onClick}>sdjf</a>
-
+                   onClick={this.props.onClick}/>
             </li>
         );
     }

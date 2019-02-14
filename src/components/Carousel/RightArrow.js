@@ -9,7 +9,7 @@ export class RightArrow extends React.Component {
                 href="#"
                 className="carousel-arrow--right carousel-arrow"
                 onClick={this.props.onClick}>
-                <span className="fa fa-2x fa-angle-right">Next</span>
+                <span className="angle-right"/>
             </a>
         );
     }
