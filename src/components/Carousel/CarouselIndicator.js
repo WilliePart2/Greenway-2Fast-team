@@ -5,11 +5,11 @@ export class CarouselIndicator extends React.Component {
         return (
             <li>
                 <a className={
-                    this.props.index == this.props.activeIndex
+                    this.props.index === this.props.activeIndex
                         ? "carousel-indicator carousel-indicator--active"
                         : "carousel-indicator"
                 }
-                   onClick={this.props.onClick}/>
+                   onClick={this.props.onClick}>sdjf</a>
 
             </li>
         );

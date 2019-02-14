@@ -43,7 +43,7 @@ export class CarouselList extends React.Component {
 
         let index = this.state.activeIndex;
         let {slides} = this.props;
-        let slidesLenght = slides.length;
+        let slidesLenght = this.slides.length;
 
         if (index < 1) {
             index = slidesLenght;
@@ -60,7 +60,7 @@ export class CarouselList extends React.Component {
 
         let index = this.state.activeIndex;
         let {slides} = this.props;
-        let slidesLenght = slides.length - 1;
+        let slidesLenght = this.slides.length - 1;
 
         if (index === slidesLenght) {
             index = 1;

@@ -33,7 +33,17 @@ ul {
       margin-bottom: 19px;
     }
 
+    .carousel-arrow--left {
+      left: 32px;
+    }
+    .carousel-arrow--right {
+      right: 32px;
+
+    }
     .carousel-arrow {
+      width: 500px;
+      height: 500px;
+
       position: absolute;
       top: 50%;
       display: block;
@@ -48,12 +58,6 @@ ul {
       }
       &:hover {
         opacity: .5;
-      }
-      &--left {
-        left: 32px;
-      }
-      &--right {
-        right: 32px;
       }
 
     }
@@ -72,7 +76,7 @@ ul {
       }
     }
     .carousel-indicator {
-      display: block;
+      display: flex;
       width: 24px;
       height: 3px;
       background-color: black;
@@ -80,12 +84,12 @@ ul {
       opacity: .15;
       transition: opacity .15s cubic-bezier(.4, 0, 1, 1);
 
-      &:hover{
+      &:hover {
         opacity: .5;
       }
-      &--active{
+      &--active {
         &,
-        &:hover{
+        &:hover {
           opacity: .75;
         }
       }
