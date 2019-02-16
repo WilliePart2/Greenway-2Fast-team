@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b83be6f9-1183-412d-aec3-574ae44af9bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Info/InformationBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Info/InformationBlockItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePageContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/JoinBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JoinBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/headText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/headText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/mainSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/NavBar/navMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navMenuLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/NavBar/navMenuLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/proposalItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/proposap/proposalItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/proposapSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/proposap/proposapSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/NavBar/signIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/textBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/textBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/textSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/textSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo_greenway.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/LogoGreen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Info/InformationBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/InformationBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/proposap/proposapSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/proposap/proposapSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/mainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/mainSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/proposalsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/proposalsSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/textBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/textBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/templates/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/templates/landing.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,17 +98,70 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InformationBlock.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Info/InformationBlock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.56556505">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="InformationBlockItem.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Info/InformationBlockItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="175">
+                  <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="landing.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/landing.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="proposapSection.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/proposap/proposapSection.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="566">
+                  <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="proposalItem.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/proposap/proposalItem.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InformationBlock.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Info/InformationBlock.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/signInSignUp.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/src/styles/components/landingHeader.scss" />
         <option value="$PROJECT_DIR$/src/components/logo.js" />
@@ -186,21 +219,22 @@
         <option value="$PROJECT_DIR$/src/components/mainSlider.js" />
         <option value="$PROJECT_DIR$/src/styles/templates/landing.scss" />
         <option value="$PROJECT_DIR$/src/components/proposapSection.js" />
-        <option value="$PROJECT_DIR$/src/components/proposap/proposapSection.js" />
         <option value="$PROJECT_DIR$/src/styles/components/button.scss" />
         <option value="$PROJECT_DIR$/src/components/proposap/proposalItem.js" />
         <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/proposalsSection.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/slider.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/mainSlider.scss" />
-        <option value="$PROJECT_DIR$/src/pages/landing.js" />
         <option value="$PROJECT_DIR$/src/components/Slider.js" />
         <option value="$PROJECT_DIR$/src/components/Head/textBlock.js" />
         <option value="$PROJECT_DIR$/src/components/Head/mainSlider.js" />
         <option value="$PROJECT_DIR$/src/components/Head/headText.js" />
         <option value="$PROJECT_DIR$/src/components/Head/header.js" />
-        <option value="$PROJECT_DIR$/src/components/Info/InformationBlock.js" />
         <option value="$PROJECT_DIR$/src/components/JoinBlock.js" />
+        <option value="$PROJECT_DIR$/src/components/proposap/proposapSection.js" />
+        <option value="$PROJECT_DIR$/src/components/Info/InformationBlock.js" />
+        <option value="$PROJECT_DIR$/src/pages/landing.js" />
+        <option value="$PROJECT_DIR$/src/components/Info/InformationBlockItem.js" />
       </list>
     </option>
   </component>
@@ -240,8 +274,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -422,7 +456,7 @@
       <workItem from="1549817539656" duration="25574000" />
       <workItem from="1549882995261" duration="34167000" />
       <workItem from="1550062396114" duration="5540000" />
-      <workItem from="1550141055284" duration="20967000" />
+      <workItem from="1550141055284" duration="23662000" />
     </task>
     <task id="LOCAL-00001" summary="implemented header and slider">
       <created>1549844875278</created>
@@ -435,7 +469,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105971000" />
+    <option name="totallyTimeSpent" value="108666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -447,8 +481,8 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35211268" />
       <window_info id="npm" order="3" sideWeight="0.5033445" side_tool="true" weight="0.1348559" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27668846" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.18710022" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27668846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.2771855" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
@@ -486,13 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -600,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/proposap/proposalItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -725,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/proposap/proposapSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Carousel/Carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -773,16 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,10 +849,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/proposap/proposapSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Info/InformationBlock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="-3">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/proposap/proposalItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Info/InformationBlockItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
