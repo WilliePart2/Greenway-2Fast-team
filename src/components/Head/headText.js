@@ -1,5 +1,5 @@
 import React from 'react';
-import { getClasses } from '../libs/utils';
+import { getClasses } from '../../libs/utils';
 
 export class HeadText extends React.Component {
   get classList () {

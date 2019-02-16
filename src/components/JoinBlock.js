@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {TextBlock} from "./textBlock";
+import {TextBlock} from "./Head/textBlock";
 import {Button} from "./button";
 
 export class JoinBlock extends React.Component {

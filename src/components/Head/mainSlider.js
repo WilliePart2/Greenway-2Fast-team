@@ -1,18 +1,13 @@
 import React from 'react';
 import {HeadText} from './headText';
-import {TextSlider} from './textSlider';
 import {TextBlock} from './textBlock';
-import {Button} from './button';
-import {greenwaylogo} from '../img/logo_greenway.png';
+import {Button} from '../button';
+// noinspection ES6CheckImport
+import {ImageGreen} from '../../img/LogoGreen.png';
 
 export class MainSlider extends React.Component {
     render() {
-        let textFrames = [
-            'Неограниченные возможности',
-            'Бизнес будущего',
-            'Новая реальность',
-            'Экология личного пространства'
-        ];
+
         return (
             <div className="landing-main-slider">
                 <div className="landing-slider-header">
@@ -31,11 +26,19 @@ export class MainSlider extends React.Component {
                         Начни свой бизнес с сильной командой професионалов!
                     </HeadText>
                 </div>
-                <div className="landing-slider-button">
 
+                <div className="text-block">
+                    <TextBlock center bold maxWidth="700">обучение</TextBlock>
+                    <TextBlock bold maxWidth="700">сопровождение</TextBlock>
+                    <TextBlock bold maxWidth="700">поддержка</TextBlock>
+                    <TextBlock bold maxWidth="700">наставничество</TextBlock>
+                </div>
+
+                <div className="landing-slider-button">
                     <div className="landing-slider-button-logo--content">
-                        <img src={greenwaylogo} className="landing-slider-logo--image"/>
+
                     </div>
+
                     <div className="landing-slider-button--content">
                         <Button primary>присойдениться</Button>
                         <Button primary>узнать подробней</Button>

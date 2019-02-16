@@ -2,7 +2,7 @@
 @import '../variables';
 
 .landing-header {
-  background-color:saddlebrown;
+  background-color: #8b4513;
   @include font;
 
   .landing-logo {
@@ -14,7 +14,7 @@
       height: 10.5em;
       background: burlywood;
     }
-    .landing-logo--image{
+    .landing-logo--image {
       width: 40%;
       margin-top: 5%;
       margin-left: 20%;

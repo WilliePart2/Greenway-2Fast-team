@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavMenu } from './navMenu';
-import { Logo } from './logo';
-import { SignIn } from './signIn';
+import { NavMenu } from './NavBar/navMenu';
+import { Logo } from '../logo';
+import { SignIn } from './NavBar/signIn';
 
 export class Header extends React.Component {
   render () {
