@@ -4,26 +4,26 @@
 .head-text {
   @include font;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
   color: $textColor;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: toRems(5px);
-  font-size: toRems(100px);
+  font-size: toRems(80px);
 
   @include desktop {
-    font-size: toRems(120px);
+    font-size: toRems(80px);
   }
 
   @include large-tablet {
-    font-size: toRems(110px);
+    font-size: toRems(70px);
   }
 
   @include tablet {
-    font-size: toRems(90px);
+    font-size: toRems(50px);
   }
 
   @include mobile {
-    font-size: toRems(50px);
+    font-size: toRems(20px);
   }
 
   &.uppercase {

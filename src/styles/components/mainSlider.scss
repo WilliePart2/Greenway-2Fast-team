@@ -18,10 +18,9 @@
     padding-top: toRems(100px);
   }
 
-  @include  mobile {
+  @include mobile {
     padding-top: toRems(10px);
   }
-
 
   .landing-slider-header {
     padding: toRems(50px) 0;
@@ -56,9 +55,20 @@
     display: flex;
     justify-content: center;
     padding: toRems(20px) 0 toRems(70px) 0;
+    background-color: rgba(222, 184, 135, 0.5);
 
     .landing-slider-button--content {
       flex-basis: toRems(450px);
+    }
+    .landing-slider-button--content div:last-child {
+      margin-top: 10%;
+    }
+    .landing-slider-button-logo--content {
+
+    }
+    .landing-slider-logo--image {
+      width: 100%;
+      height: 100px;
     }
 
     @include mobile {
