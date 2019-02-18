@@ -4,7 +4,7 @@
 .text-block {
   @include font;
   color: $textColor;
-  font-size: toRems(30px);
+  font-size: toRems(50px);
   display: flex;
   flex-direction: row;
   justify-content: center;

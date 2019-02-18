@@ -12,9 +12,9 @@ export class Button extends React.Component {
   }
   render() {
     return (
-      <div className={this.classList}>
+      <button className={this.classList}>
         {this.props.children}
-      </div>
+      </button>
     );
   }
 }

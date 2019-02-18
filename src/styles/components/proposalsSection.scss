@@ -6,7 +6,7 @@
   flex-wrap: wrap;
 
   background: {
-    image:url("./img/block2.jpg");
+    image: url("./img/block2.jpg");
     repeat: no-repeat;
     size: 100%;
   }
@@ -18,14 +18,14 @@
     flex-basis: 50%;
     flex-grow: 1;
     text-align: center;
-    background-color: rgba(139, 69, 19, .6);
+    background-color: rgba(99, 79, 29, .6);
   }
-  .proposal-item button:first-child {
+  .proposal-item button:last-child {
     color: #ffffff;
     border: 2px solid #DC143C;
     background-color: #DC143C;
   }
-  .proposal-item button:last-child {
+  .proposal-item button:first-child {
     color: #ffffff;
     border: 2px solid #14b81f;
     background-color: #14b81f;
@@ -60,6 +60,65 @@
     cursor: pointer;
   }
 
+  .information-block-label--top {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 3%;
+  }
+  .border {
+    border-bottom: 1px solid black;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .information-block-label {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+
+    //border-bottom: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .information-block-label--bottom {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 3%;
+  }
+  .information-block--button {
+    width: 30%;
+    padding: 12px 22px 12px 22px;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: toRems(50px);
+    cursor: pointer;
+
+  }
+  .information-block-button--content button:first-child {
+    color: #ffffff;
+    border: 2px solid #DC143C;
+    background-color: #DC143C;
+
+  }
+
+  .white {
+    background-color: white;
+  }
   @include portrait {
     .proposal-item {
       flex-basis: 100%;

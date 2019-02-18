@@ -10,7 +10,7 @@
   justify-content: space-between;
 
   .landing-header {
-    height: toRems(250px);
+    height: toRems(150px);
     width: calc(100% - #{toRems(10px)});
     margin: 0 toRems(5px);
     display: flex;

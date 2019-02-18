@@ -10,8 +10,12 @@ export class InformationBlock extends React.Component {
                 p2: "Собственные лаборатории, иследовательский центр и производство",
                 p3: "Девять линеек продукции для тех, кто выбрал осознанный экологичный подход к своей жизни",
                 bottom_content: "Позаботьтесь о себе и всех, кто Вам дорог!Вместе мы сделаем наш дом чище, а планету - счастливее.",
-
+            },
+            {
                 btn_bottom: "Узнать подробней"
+            },
+            {
+                btn_bottom: "Присойдениться"
             },
             {
                 top_content: "Быстрый старт бизнеса",
@@ -19,14 +23,13 @@ export class InformationBlock extends React.Component {
                 p2: "Greenway дает простые инструменты для получения большых доходов",
                 p3: "Стартовый план и опытный наставник помогут Вам быстро набрать обороты!",
                 bottom_content: "Начните сейчас и уже через год Ваша машина и квартира будут круче, чем у бывшего босса!",
-
-                btn_bottom: "Присойдениться"
             }
+
         ];
         let count = 0;
         return (
             <div className="proposals-section">
-                {proposals.map(content => <InformationBlockItem key={count++}
+                {proposals.map(content => <InformationBlockItem index={count++}
                                                                 content={content}/>)}
             </div>
         );

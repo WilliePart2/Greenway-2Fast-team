@@ -4,7 +4,7 @@
   //min-height: toRems(500px);
   display: flex;
   flex-flow: column nowrap;
-  background-color: rgba(139, 69, 19, .6);
+  background-color: rgba(99, 79, 29, .6);
   //padding: toRems(250px) 0;
 
   @include portrait {
@@ -60,12 +60,12 @@
 
     margin-top: 10%;
     padding: 5rem;
-    background-color: rgba(222, 184, 135, .7);
+    background-color: rgba(153,141,106, .7);
 
     .landing-slider-button--content {
       flex-basis: toRems(450px);
     }
-    .landing-slider-button--content div:last-child {
+    .landing-slider-button--content button:last-child {
       margin-top: 10%;
     }
     .landing-slider-button-logo--content {

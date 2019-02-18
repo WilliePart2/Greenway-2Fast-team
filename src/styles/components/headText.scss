@@ -8,22 +8,22 @@
   color: $textColor;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: toRems(5px);
-  font-size: toRems(80px);
+  font-size: toRems(60px);
 
   @include desktop {
-    font-size: toRems(80px);
+    font-size: toRems(60px);
   }
 
   @include large-tablet {
-    font-size: toRems(70px);
+    font-size: toRems(40px);
   }
 
   @include tablet {
-    font-size: toRems(50px);
+    font-size: toRems(30px);
   }
 
   @include mobile {
-    font-size: toRems(20px);
+    font-size: toRems(15px);
   }
 
   &.uppercase {
