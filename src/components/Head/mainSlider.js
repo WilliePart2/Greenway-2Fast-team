@@ -12,7 +12,7 @@ export class MainSlider extends React.Component {
             <div className="landing-main-slider">
                 <div className="landing-slider-header">
                     <HeadText upper>
-                        Свой бизнес - что может быть лучше? Это собода и финансовая независимость!
+                        Свой бизнес - что может быть лучше? Это свобода и финансовая независимость!
                     </HeadText>
                 </div>
                 <div className="landing-slider-slide-text">
@@ -23,7 +23,7 @@ export class MainSlider extends React.Component {
                 </div>
                 <div className="landing-slider-text-block">
                     <HeadText upper>
-                        Начни свой бизнес с сильной командой професионалов!
+                        Начни свой бизнес с сильной командой профессионалов!
                     </HeadText>
                 </div>
 
@@ -40,7 +40,7 @@ export class MainSlider extends React.Component {
                     </div>
 
                     <div className="landing-slider-button--content">
-                        <Button primary>присойдениться</Button>
+                        <Button primary>присоединиться</Button>
                         <Button primary>узнать подробней</Button>
                     </div>
                 </div>

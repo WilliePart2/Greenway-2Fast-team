@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b83be6f9-1183-412d-aec3-574ae44af9bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/FooterContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/FooterList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/Text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/InformationBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/InformationBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/InformationBlockItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/InformationBlockItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/headText.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/headText.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/mainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/mainSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/proposalsSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/proposalsSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/textBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/textBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/layout/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout/landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/templates/landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/templates/landing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/mainSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/mainSlider.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,7 +94,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5929095">
+    <splitter split-orientation="horizontal" split-proportion="0.40606937">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="InformationBlockItem.js" pinned="false" current-in-tab="false">
@@ -117,18 +102,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="480">
                   <caret line="30" column="59" lean-forward="true" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="landing.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/landing.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -160,11 +133,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/styles/components/header.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="363">
                   <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navMenu.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Head/NavBar/navMenu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -260,7 +242,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="350">
@@ -278,11 +260,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mainSlider.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mainSlider.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Head/mainSlider.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-478">
-                  <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="423">
+                  <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -352,7 +334,6 @@
         <option value="$PROJECT_DIR$/src/styles/components/slider.scss" />
         <option value="$PROJECT_DIR$/src/components/Slider.js" />
         <option value="$PROJECT_DIR$/src/components/Head/textBlock.js" />
-        <option value="$PROJECT_DIR$/src/components/Head/mainSlider.js" />
         <option value="$PROJECT_DIR$/src/components/Head/headText.js" />
         <option value="$PROJECT_DIR$/src/components/Head/header.js" />
         <option value="$PROJECT_DIR$/src/components/JoinBlock.js" />
@@ -375,6 +356,7 @@
         <option value="$PROJECT_DIR$/src/styles/components/footer.scss" />
         <option value="$PROJECT_DIR$/src/styles/layout/landing.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/header.scss" />
+        <option value="$PROJECT_DIR$/src/components/Head/mainSlider.js" />
       </list>
     </option>
   </component>
@@ -605,7 +587,7 @@
       <workItem from="1550062396114" duration="5540000" />
       <workItem from="1550141055284" duration="25324000" />
       <workItem from="1550438138943" duration="939000" />
-      <workItem from="1550493066940" duration="10342000" />
+      <workItem from="1550493066940" duration="10648000" />
     </task>
     <task id="LOCAL-00001" summary="implemented header and slider">
       <created>1549844875278</created>
@@ -618,7 +600,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121609000" />
+    <option name="totallyTimeSpent" value="121915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -630,8 +612,8 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35211268" />
       <window_info id="npm" order="3" sideWeight="0.5033445" side_tool="true" weight="0.1348559" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.332244" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.26226014" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.332244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665552" visible="true" weight="0.26226014" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -800,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head/NavBar/navMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/NavBar/navMenuLink.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -898,13 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head/mainSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1010,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/components/headText.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1035,6 +996,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head/NavBar/navMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head/mainSlider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
