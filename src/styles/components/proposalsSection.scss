@@ -49,7 +49,7 @@
 
   .proposals-section-label--top {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham','Roboto', sans-serif;
     text-transform: uppercase;
     text-align: left;
     font-weight: 700;
@@ -100,7 +100,7 @@
 
   .information-block-label--top {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Gotham', 'Roboto', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
@@ -119,7 +119,7 @@
   }
   .information-block-label {
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham', 'Roboto', sans-serif;
     line-height: 1.5;
 
     //border-bottom: 1px solid black;
@@ -131,7 +131,7 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham','Roboto', sans-serif;
 
     width: 50%;
     margin-left: 25%;
@@ -147,7 +147,7 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham','Roboto', sans-serif;
 
     border-radius: toRems(50px);
     cursor: pointer;

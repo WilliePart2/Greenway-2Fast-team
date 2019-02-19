@@ -1,5 +1,17 @@
 @import "../utils";
 
+@font-face {
+  font-family: 'Gotham';
+
+  src: url("/src/font/GotmanPro/GothamPro.eot");
+  src: url("/src/font/GotmanPro/GothamPro.eot?iefix") format('eot'),
+  url("/src/font/GotmanPro/GothamPro.woff") format('woff'),
+
+  url("/src/font/GotmanPro/GothamPro.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .landing-content {
   background: {
     image: url('./img/bg2.jpg');

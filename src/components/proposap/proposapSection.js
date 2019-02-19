@@ -3,6 +3,7 @@ import React from 'react';
 import {ProposalItem} from './proposalItem';
 
 export class ProposalSection extends React.Component {
+
     render() {
         let proposals = [
             {
@@ -24,6 +25,8 @@ export class ProposalSection extends React.Component {
                 btn_bottom: "узнать подробнее"
             }
         ];
+
+
         let counter = 0;
         return (
             <div className="proposals-section">

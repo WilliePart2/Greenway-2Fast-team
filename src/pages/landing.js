@@ -7,6 +7,7 @@ import {Slider} from '../components/Slider';
 import {InformationBlock} from "../components/Info/InformationBlock";
 
 export class Landing extends React.Component {
+
     render() {
         return (
             <div className="landing-content">
