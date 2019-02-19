@@ -13,6 +13,19 @@
 
   }
 
+  @include mobile{
+    font-size: toRems(20px);
+    flex-direction: column;
+    line-height: 1.8;
+    text-align: center;
+  }
+  @include tablet{
+    font-size: toRems(30px);
+  }
+  @include desktop{
+    font-size: toRems(40px);
+  }
+
   &.center {
     text-align: center;
   }

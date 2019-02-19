@@ -12,6 +12,21 @@
   }
 ;
 
+  @include mobile {
+    background: {
+      size: cover;
+      position-x: 50%;
+    }
+  ;
+  }
+  @include tablet {
+    background: {
+      size: cover;
+      position-x: 50%;
+    }
+  ;
+  }
+
   .proposal-item {
     margin-bottom: -5px;
     padding: 5% 0 5% 0;
@@ -46,6 +61,18 @@
 
     color: white;
     line-height: 2.5;
+
+    @include mobile {
+      font-size: toRems(20px);
+      text-align: center;
+      margin: 0 0 0 20%;
+    }
+    @include tablet{
+      margin-left: 25%;
+    }
+    @include desktop{
+      margin-left: 20%;
+    }
   }
   .proposals-section--button {
     width: 30%;
@@ -58,6 +85,17 @@
 
     border-radius: toRems(50px);
     cursor: pointer;
+
+    @include mobile {
+      font-size: toRems(20px);
+      width: 70%;
+    }
+    @include tablet {
+      width: 50%;
+    }
+    @include desktop{
+      width: 70%;
+    }
   }
 
   .information-block-label--top {
@@ -70,6 +108,9 @@
     width: 50%;
     margin-left: 25%;
     padding-top: 3%;
+    @include tablet{
+      font-size: toRems(25px);
+    }
   }
   .border {
     border-bottom: 1px solid black;
@@ -95,6 +136,9 @@
     width: 50%;
     margin-left: 25%;
     padding-bottom: 3%;
+    @include tablet{
+      font-size: toRems(25px);
+    }
   }
   .information-block--button {
     width: 30%;
@@ -108,6 +152,16 @@
     border-radius: toRems(50px);
     cursor: pointer;
 
+    @include mobile {
+      width: 70%;
+      font-size: toRems(20px);
+    }
+    @include tablet{
+      width: 70%;
+    }
+    @include desktop{
+      width: 50%;
+    }
   }
   .information-block-button--content button:first-child {
     color: #ffffff;

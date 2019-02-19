@@ -1,11 +1,9 @@
 @import '../utils';
 
 .landing-main-slider {
-  //min-height: toRems(500px);
   display: flex;
   flex-flow: column nowrap;
   background-color: rgba(99, 79, 29, .6);
-  //padding: toRems(250px) 0;
 
   @include portrait {
     padding: toRems(50px) 0;
@@ -17,10 +15,12 @@
 
   @include tablet {
     padding-top: toRems(100px);
+    padding-bottom: 0;
   }
 
   @include mobile {
     padding-top: toRems(10px);
+    padding-bottom: 0;
   }
 
   .landing-slider-header {
@@ -40,7 +40,9 @@
     min-height: toRems(180px);
 
     @include mobile {
-      padding-top: toRems(10px);
+      padding: toRems(10px);
+      text-align: center;
+      min-height: toRems(50px);
     }
   }
 
@@ -55,18 +57,38 @@
   .landing-slider-button {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     //margin-top: 9.4%;
     //padding: toRems(20px) 0 toRems(70px) 0;
 
     margin-top: 10%;
     padding: 5rem;
-    background-color: rgba(153,141,106, .7);
+    background-color: rgba(153, 141, 106, .7);
 
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
     .landing-slider-button--content {
       flex-basis: toRems(450px);
+
     }
     .landing-slider-button--content button:last-child {
       margin-top: 10%;
+    }
+
+    .button{
+      color: white;
+      font-weight: 700;
+    }
+    @include mobile {
+      .landing-slider-button--content {
+        flex-basis: toRems(200px);
+        flex-wrap: wrap;
+      }
+      .button {
+        font-size: toRems(20px);
+      }
     }
     .landing-slider-button-logo--content {
       width: 50%;
@@ -76,6 +98,10 @@
         repeat: no-repeat;
         size: 100%;
         position-y: 50%;
+      }
+      @include mobile {
+        width: toRems(300px);
+        height: toRems(200px);
       }
     }
     .landing-slider-logo--image {

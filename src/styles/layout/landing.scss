@@ -20,10 +20,19 @@
     flex-wrap: wrap;
 
     @include tablet {
-      align-items: stretch;
-      margin: 0 toRems(20px);
-      width: calc(100% - #{toRems(40px)});
-      justify-content: space-between;
+      align-items: flex-end;
+      margin: 0;
+      height: toRems(200px);
+      width: 100%;
+      justify-content: space-around;
+    }
+
+  }
+
+  @include mobile {
+    .landing-header {
+      width: 100%;
+      margin: 0;
     }
 
     .landing-logo,
