@@ -26,6 +26,11 @@
       width: 100%;
       justify-content: space-around;
     }
+    @include desktop{
+      width: 100%;
+      margin: 0;
+      flex-wrap: nowrap;
+    }
 
   }
 

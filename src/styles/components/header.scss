@@ -27,12 +27,12 @@
         margin-left: 30%;
       }
       @include desktop{
-        width: 10%;
+        width: 30%;
       }
     }
     @include mobile {
       .landing-logo--image {
-        width: 50%;
+        width: 150%;
       }
     }
   }
